@@ -86,7 +86,7 @@ rocker --x11 --privileged turtlebot3_container terminator
 All the result videos can be found in the result folder of the cloned directory.
 
 <p align="center">
-<img width="45%" alt="Result Video" src="results/demonstration.gif">
+<img width="65%" alt="Result Video" src="results/demonstration.gif">
 </p>
 
 
