@@ -1,0 +1,21 @@
+[INFO] [1701286152.074718646] [rosbag2_storage]: Opened database 'walker_bag_topics_list/walker_bag_topics_list_0.db3' for READ_ONLY.
+
+Files:             walker_bag_topics_list/walker_bag_topics_list_0.db3
+Bag size:          6.6 MiB
+Storage id:        sqlite3
+Duration:          50.696s
+Start:             Nov 29 2023 14:27:34.415 (1701286054.415)
+End:               Nov 29 2023 14:28:25.111 (1701286105.111)
+Messages:          16500
+Topic information: Topic: /clock | Type: rosgraph_msgs/msg/Clock | Count: 498 | Serialization Format: cdr
+                   Topic: /cmd_vel | Type: geometry_msgs/msg/Twist | Count: 244 | Serialization Format: cdr
+                   Topic: /imu | Type: sensor_msgs/msg/Imu | Count: 9857 | Serialization Format: cdr
+                   Topic: /joint_states | Type: sensor_msgs/msg/JointState | Count: 1451 | Serialization Format: cdr
+                   Topic: /odom | Type: nav_msgs/msg/Odometry | Count: 1453 | Serialization Format: cdr
+                   Topic: /parameter_events | Type: rcl_interfaces/msg/ParameterEvent | Count: 48 | Serialization Format: cdr
+                   Topic: /performance_metrics | Type: gazebo_msgs/msg/PerformanceMetrics | Count: 251 | Serialization Format: cdr
+                   Topic: /robot_description | Type: std_msgs/msg/String | Count: 1 | Serialization Format: cdr
+                   Topic: /rosout | Type: rcl_interfaces/msg/Log | Count: 37 | Serialization Format: cdr
+                   Topic: /scan | Type: sensor_msgs/msg/LaserScan | Count: 247 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 2412 | Serialization Format: cdr
+                   Topic: /tf_static | Type: tf2_msgs/msg/TFMessage | Count: 1 | Serialization Format: cdr
