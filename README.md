@@ -55,6 +55,7 @@ rocker --x11 --privileged turtlebot3_container terminator
 1. Move to the source directory of your ROS workspace. Also make sure you source into ROS humble and have Ubuntu 22 OS
 ```bash
     source /opt/ros/humble/setup.bash
+    export TURTLEBOT3_MODEL=waffle_pi
     cd ros2_ws/src
 ```
 2. Clone the repository using the command below. Use terminal in Ubuntu 
@@ -71,7 +72,7 @@ rocker --x11 --privileged turtlebot3_container terminator
     # Terminal 2
     source /opt/ros/humble/setup.bash
     source install/setup.bash
-    ros2 run obstacle_avoidance_tb3 turtlebot_teleop.py
+    ros2 run obstacle_avoidance_tb3 turtlebot_teleop.pycd
 ```
 4. Run below commands to execute obstacle Avoidance algorithm
 ```bash
