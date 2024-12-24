@@ -7,7 +7,7 @@ To execute the algorithm, follow the steps below. The initial method involves ru
 ## Appoach 1 : USING DOCKER
 
 1. Make sure Docker is installed on your system.
-2. The execution requires rocker, which can be installed using below command. If you faces issues installing rocker with below command refer to this documentation -> [Rocker](https://github.com/osrf/rocker)
+2. The execution requires rocker (Only for Linux Systems), which can be installed using below command . If you faces issues installing rocker with below command refer to this documentation -> [Rocker](https://github.com/osrf/rocker)
 ```
 sudo apt install python3-rocker
 ```
@@ -30,7 +30,11 @@ docker images
 ```
 7. Use the below rocker command to run the docker container. It will open a terminator window with the ros package built
 ```
+# Use below command if running on Linux System
 rocker --x11 --privileged turtlebot3_container terminator
+
+# Use below command if running the container on Windows. This will enable the access required for the container
+docker run -it --env="DISPLAY=${DISPLAY}" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" turtlebot3_container
 ```
 8. The commands below should be run inside terminator window opened to execute the obstacle avoidance algorithm
 ```bash
