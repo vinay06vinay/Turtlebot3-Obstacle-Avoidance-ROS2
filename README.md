@@ -33,7 +33,7 @@ docker images
 # Use below command if running on Linux System
 rocker --x11 --privileged turtlebot3_container terminator
 
-# Use below command if running the container on Windows. This will enable the access required for the container
+# Use below command if running the container without Rocker. This will enable the access required for the container
 docker run -it --env="DISPLAY=${DISPLAY}" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" turtlebot3_container
 ```
 8. The commands below should be run inside terminator window opened to execute the obstacle avoidance algorithm
